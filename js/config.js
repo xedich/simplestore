@@ -67,7 +67,6 @@ $(function() {
 	    checkoutSuccess             : null,
 	    checkoutFail                : null,
 	    beforeCheckout              : null
-
 	});
 
 	simpleStore.init({
@@ -79,7 +78,10 @@ $(function() {
 		numColumns : 3,
 
 		// name of JSON file, located in directory root
-		JSONFile : "products.json"
+		JSONFile : "products.json",
+
+	    // plugin
+	    spreadsheetID : "1iVNlfOM1YaUnGefsYzYK75b_4IZghJvUvpGjgm9LF-I"
 
 	});
 
